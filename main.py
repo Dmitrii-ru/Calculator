@@ -4,7 +4,7 @@ from kivy.config import Config
 from kivymd.theming import ThemeManager
 from kivymd.app import MDApp
 from kivy.lang import Builder
-
+# 12
 Config.set('kivy', 'kyeboard mode', 'systemanddock')
 
 Window.size = (360, 700)
