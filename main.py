@@ -112,7 +112,7 @@ class Container(GridLayout):
 
 class Ducky(MDApp):
     def __init__(self,**kwargs):
-        self.title = 'Time'
+        self.title = 'Calculator'
         self.theme_cls.theme_style = 'Light'
         super().__init__(**kwargs)
     def build(self):
